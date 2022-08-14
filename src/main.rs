@@ -1,12 +1,14 @@
 pub mod graphs;
-pub mod linked_lists;
 pub mod sorting;
+pub mod two_pointers;
 
-fn main() {
-    println!("Hello, world!");
-    
-    graphs::bfs();
-    graphs::dfs();
-    sorting::binary_search();
+fn main() {    
+    // graphs::bfs();
+    // graphs::dfs();
+    // sorting::binary_search();
+    //sorting::bubble_sort();
+    two_pointers::three_sum()
 
 }
+
+
